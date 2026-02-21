@@ -12,7 +12,7 @@ Ce laboratoire démontre la mise en place d'un proxy d'observation entre un **An
 ## 2. Accès à la Cible
 La première étape consiste à vérifier l'accessibilité du site d'entraînement depuis le navigateur de l'émulateur Android.
 
-![Vue du site vulnérable](TP-Securite-Mobile-Burp/le%20site%20vulnerable.png)
+![Vue du site vulnérable](le%20site%20vulnerable.png)
 
 ---
 
