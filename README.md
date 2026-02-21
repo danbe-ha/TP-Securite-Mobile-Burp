@@ -19,7 +19,7 @@ La première étape consiste à vérifier l'accessibilité du site d'entraîneme
 ## 3. Analyse de l'Historique (HTTP History)
 Une fois la navigation effectuée, l'onglet **HTTP History** de Burp Suite permet de visualiser l'intégralité des échanges entre le mobile et le serveur. Chaque ligne représente une ressource chargée ou une action utilisateur.
 
-![Historique des requêtes Burp](images/burp%20history.png)
+![Historique des requêtes Burp](burp%20history.png)
 
 ---
 
@@ -28,12 +28,12 @@ Une fois la navigation effectuée, l'onglet **HTTP History** de Burp Suite perme
 ### A. Analyse de la requête GET
 La requête `GET` est utilisée pour demander l'affichage de la page de connexion. On y observe les en-têtes (Headers) tels que le `User-Agent` identifiant l'émulateur.
 
-![Détail de la requête GET](images/request%20get.png)
+![Détail de la requête GET](request%20get.png)
 
 ### B. Analyse de la requête POST (Données sensibles)
 C'est la phase critique : l'envoi des identifiants. On constate que les données (`uname` et `pass`) sont transmises en **texte clair** dans le corps de la requête.
 
-![Détail de la requête POST](images/request%20post.png)
+![Détail de la requête POST](request%20post.png)
 
 ---
 
